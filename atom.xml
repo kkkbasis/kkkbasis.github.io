@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kkkbasis.github.io</id>
     <title>迷幻果干</title>
-    <updated>2020-12-24T06:55:47.699Z</updated>
+    <updated>2020-12-24T10:21:28.793Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kkkbasis.github.io"/>
     <link rel="self" href="https://kkkbasis.github.io/atom.xml"/>
@@ -10,6 +10,94 @@
     <logo>https://kkkbasis.github.io/images/avatar.png</logo>
     <icon>https://kkkbasis.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 迷幻果干</rights>
+    <entry>
+        <title type="html"><![CDATA[常用的Markdown、Html语法]]></title>
+        <id>https://kkkbasis.github.io/post/chang-yong-de-markdownhtml-yu-fa/</id>
+        <link href="https://kkkbasis.github.io/post/chang-yong-de-markdownhtml-yu-fa/">
+        </link>
+        <updated>2020-12-24T09:38:17.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="文字">文字</h1>
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<p><strong>加粗</strong></p>
+<p><em><strong>斜体加粗</strong></em></p>
+<p><em>斜体</em></p>
+<p><s>删除</s></p>
+<blockquote>
+<p>引用</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>引用</p>
+</blockquote>
+</blockquote>
+<h1 id="排版">排版</h1>
+<p>分割线</p>
+<hr>
+<hr>
+<center>文字居中显示</center>
+<p><font face="黑体">我是黑体字</font></p>
+<p><font face="黑体" size=15>黑体11·0号</font></p>
+<p><font color=red size=72>红色72号</font></p>
+<h1 id="图片">图片</h1>
+<p><a href="%E5%9C%B0%E5%9D%80%22title%22">图片alt</a><br>
+//alt：图片下方显示的名称；title：鼠标移上去之后显示的文字</p>
+<h1 id="超链接">超链接</h1>
+<p><a href="%E5%9C%B0%E5%9D%80">名称</a><br>
+<a href="https://imgchr.com">imgchr图床</a></p>
+<h1 id="列表">列表</h1>
+<ul>
+<li>
+<p>内容</p>
+</li>
+<li>
+<p>内容</p>
+</li>
+<li>
+<p>内容</p>
+</li>
+<li>
+<p>一级无序列表内容</p>
+<ol>
+<li>二级内容</li>
+<li>二级内容</li>
+<li>二级内容</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>内容</li>
+<li>内容</li>
+<li>内容</li>
+</ol>
+<h1 id="符号">符号</h1>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>表头</td>
+<td>表头</td>
+<td>表头</td>
+</tr>
+<tr>
+<td>表头</td>
+<td>表头</td>
+<td>表头</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【干货】如何拍摄关于清朝的影视剧]]></title>
         <id>https://kkkbasis.github.io/post/gan-huo-ru-he-pai-she-guan-yu-qing-zhao-de-ying-shi-ju/</id>

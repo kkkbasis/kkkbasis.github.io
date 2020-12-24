@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>常用的Markdown、Html语法 | 迷幻果干</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://kkkbasis.github.io/favicon.ico?v=1608805284601">
+<link rel="stylesheet" href="https://kkkbasis.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="文字
+一级标题
+二级标题
+三级标题
+四级标题
+五级标题
+六级标题
+加粗
+斜体加粗
+斜体
+删除
+
+引用
+
+
+
+引用
+
+
+排版
+分割线
+
+
+文字居中显示
+我是黑体字
+黑体11·0号
+红色72号
+图片
+图片alt
+//alt：图片下方显示的名称；..." />
+    <meta name="keywords" content="干货" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://kkkbasis.github.io">
+        <img src="https://kkkbasis.github.io/images/avatar.png?v=1608805284601" class="site-logo">
+        <h1 class="site-title">迷幻果干</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      不想看就别勉强自己
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://kkkbasis.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">常用的Markdown、Html语法</h2>
+            <div class="post-date">2020-12-24</div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="文字">文字</h1>
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<p><strong>加粗</strong></p>
+<p><em><strong>斜体加粗</strong></em></p>
+<p><em>斜体</em></p>
+<p><s>删除</s></p>
+<blockquote>
+<p>引用</p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>引用</p>
+</blockquote>
+</blockquote>
+<h1 id="排版">排版</h1>
+<p>分割线</p>
+<hr>
+<hr>
+<center>文字居中显示</center>
+<p><font face="黑体">我是黑体字</font></p>
+<p><font face="黑体" size=15>黑体11·0号</font></p>
+<p><font color=red size=72>红色72号</font></p>
+<h1 id="图片">图片</h1>
+<p><a href="%E5%9C%B0%E5%9D%80%22title%22">图片alt</a><br>
+//alt：图片下方显示的名称；title：鼠标移上去之后显示的文字</p>
+<h1 id="超链接">超链接</h1>
+<p><a href="%E5%9C%B0%E5%9D%80">名称</a><br>
+<a href="https://imgchr.com">imgchr图床</a></p>
+<h1 id="列表">列表</h1>
+<ul>
+<li>
+<p>内容</p>
+</li>
+<li>
+<p>内容</p>
+</li>
+<li>
+<p>内容</p>
+</li>
+<li>
+<p>一级无序列表内容</p>
+<ol>
+<li>二级内容</li>
+<li>二级内容</li>
+<li>二级内容</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>内容</li>
+<li>内容</li>
+<li>内容</li>
+</ol>
+<h1 id="符号">符号</h1>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>表头</td>
+<td>表头</td>
+<td>表头</td>
+</tr>
+<tr>
+<td>表头</td>
+<td>表头</td>
+<td>表头</td>
+</tr>
+</tbody>
+</table>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://kkkbasis.github.io/tag/VIjHLUfjM/" class="tag">
+                    干货
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://kkkbasis.github.io/post/gan-huo-ru-he-pai-she-guan-yu-qing-zhao-de-ying-shi-ju/">
+                  <h3 class="post-title">
+                    【干货】如何拍摄关于清朝的影视剧
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
